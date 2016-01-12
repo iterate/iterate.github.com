@@ -5,7 +5,7 @@ ruby '2.3.0'
 
 gem "rack-contrib"
 gem "puma"
-gem "middleman"
+gem "middleman", ">= 4.0.0"
 gem "middleman-autoprefixer"
 gem "middleman-deploy"
 gem "middleman-livereload"
