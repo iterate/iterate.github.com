@@ -11,11 +11,10 @@ Iterate website build on Middleman, Bourbon, Neat and Bitter
 * [Neat](http://neat.bourbon.io)
 * [Bitters](http://bitters.bourbon.io)
 * [Middleman Live Reload](https://github.com/middleman/middleman-livereload)
-* [Middleman Deploy](https://github.com/karlfreeman/middleman-deploy)
 
 ## Dependencies
 
-* Ruby version 2.2.2 or newer
+* Ruby version 2.3.0 or newer
 * [Puma](http://puma.io/)
 * [rack-contrib](https://github.com/rack/rack-contrib)
 
@@ -30,7 +29,7 @@ bundle install
 
 Run the server
 ```
-middleman server
+bundle exec middleman server
 ```
 
 ## Deploying
