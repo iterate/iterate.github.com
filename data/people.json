@@ -226,7 +226,7 @@
         "github" : "",
         "year" : "2011",
         "mugshot" : "klette.jpg",
-        "bio" : "<blockquote>When a rabbit is placed inside the Black Box and vanishes on cue, it is the audience’s privilege to simply ooh and aah in wonderment. But we who step on stage should know how the trick is done. The loss of innocence is the price of applause. --  The Codeless Code, by Qi (qi@thecodelesscode.com).</blockquote>",
+        "bio" : "<blockquote>When a rabbit is placed inside the Black Box and vanishes on cue, it is the audience’s privilege to simply ooh and aah in wonderment. But we who step on stage should know how the trick is done. The loss of innocence is the price of applause. <br/>--  The Codeless Code, by Qi (qi@thecodelesscode.com).</blockquote>",
         "skills" : ["javascript", "java", "python", "dev-ops", "perl"],
         "clients" : ["Amedia", "GET", "Telenor"],
         "photo" : "klette.jpg"
