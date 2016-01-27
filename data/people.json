@@ -546,5 +546,20 @@
         "skills" : ["prosjektledelse", "marketsføring", "tegneserier"],
         "clients" : "",
         "photo" : ""
+    },
+    "mæhlum": {
+        "name" : "Arne Mæhlum",
+        "title" : "Systemutvikler",
+        "email" : "arne@iterate.no",
+        "phone" : "+47 975 25 840",
+        "twitter" : "",
+        "linkedin" : "",
+        "github" : "https://github.com/arnemahl",
+        "year" : "2015",
+        "mugshot" : "arne.jpg",
+        "bio" : "<p>Kreativ og alltid på jakt etter gode ideer. En av tingene jeg trives best med er å lete etter løsninger på store og små problemer, det være seg kode-refaktorering eller hva som er den raskeste måten å lage taco.</p><p>Fun fact: Lagde gambling-spill på VGS-kalkulatoren.</p>",
+        "skills" : ["JavaScript", "ES6", "React", "Java"],
+        "clients" : ["Get"],
+        "photo" : ""
     }
 }
