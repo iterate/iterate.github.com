@@ -1,3 +1,52 @@
+
+.gridder-show {
+  float: left;
+  display: block;
+  padding: 0px;
+  position: relative;
+  width: 100%;
+  margin-bottom: 8px;
+  background: #fff;
+}
+
+.gridder-list {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+}
+.gridder {
+  text-align: center;
+  width: 100%;
+}
+.gridder-padding {
+  padding: 30px;
+}
+.gridder-expanded-content {
+  text-align: left;  
+}
+
+.gridder.hasSelectedItem {
+  .gridder-list {
+    opacity: 0.5;
+    &.selectedItem {
+      opacity: 1;
+    }
+  }
+}
+.selectedItem:after {
+  bottom: 0;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-bottom-color: #fff;
+  border-width: 16px;
+  left: 50%;
+  margin-left: -16px;
+}
+
 .employee-card {
   margin: 0 $small-spacing $base-spacing $small-spacing;
   list-style-type: none;
@@ -57,7 +106,7 @@
 
 .mugshot {
   min-width: em(280, 18);
-  margin: 0 0 $base-spacing 0;
+  margin: 0;
   position: relative;
   top: 0;
 

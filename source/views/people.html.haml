@@ -14,14 +14,17 @@ title: Mennesker
           %h2 Teamet som gjør forskjellen
       .row
         = partial 'partials/customer-quote-single', :locals => { :customer => 'syversen' } 
-   
-  .cards.has-large-padding-top-bottom
+  %ul.gridder
   
     - employees = data.people.sort.to_h # moves data into a hash and sorts alphabetically by object key
-    - employees.each do | e |
+    - employees.each_with_index do | e, idx|
       - employee = e[1] # moves all object data into an array
 
-      .employee-card
+      %li{:class => "gridder-list", :data => { :griddercontent => "#gcontent-#{idx}"}}
+        %img{:class => 'mugshot', :title => employee.name, :src => image_path('mugshots/' + employee.mugshot)}
+        %div{:id => "gcontent-#{idx}", :class => 'gridder-content', :style => 'display:none'}
+          %p= employee.bio
+      -#
         .employee-basic-info
           .employee-card-header
             %img{:class => 'mugshot', :title => employee.name, :src => image_path('mugshots/' + employee.mugshot)}
