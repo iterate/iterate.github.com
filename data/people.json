@@ -211,8 +211,8 @@
         "github" : "",
         "year" : "2013",
         "mugshot" : "osmund.jpg",
-        "bio" : "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum id ligula porta felis euismod semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.",
-        "skills" : ["javascript", "front-end", "mobil", "python", "java", "analytics", "mvp"],
+        "bio" : "Fullstack-utvikler fra vestlandet med en forkjærlighet for testdrevet, lean utvikling og funksjonelle språk. Trives også godt bak trommesettet.",
+        "skills" : ["tdd", "lean", "javascript", "python", "java"],
         "clients" : ["HFN", "Telenor", "Gjensidige"],
         "photo" : "osmund.jpg"
     },
