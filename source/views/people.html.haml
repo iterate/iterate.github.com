@@ -49,11 +49,8 @@ title: Mennesker
                     %i.fa.fa-github
         .employee-extended-info.is-hidden.animated.slideInLeft
           .inner-section
-            - if employee.bio.length > 3
+            - unless employee.bio.empty?
               %p= employee.bio
-            - else
-              - 2.times do
-                %p= lorem.sentences 2
             - unless employee.skills.empty?
               .skills
                 %i.fa.fa-tags
