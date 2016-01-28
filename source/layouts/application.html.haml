@@ -6,15 +6,15 @@
     %meta{name: "viewport", content: "width=device-width, initial-scale=1"}
     %meta{name: "description", content: "Iterate jobber med selskaper i digital endring. Vi programmerer, rådgir, leder og designer sammen med våre kunder."}  
 
-    %meta{:property => "og:title", :content => current_page.data.title + "| Iterate"}
-    %meta{:property => "og:site_name", :content => "Iterates hjemmeside"}
+    %meta{:property => "og:title", :content => current_page.data.title + " | Iterate - Lean Software Development"}
+    %meta{:property => "og:site_name", :content => "Iterate - Lean Software Development"}
     - if current_page.metadata[:page].try(:[], 'open_graph_image')
       %meta{:property => "og:image", :content => "#{current_page.metadata[:page]['open_graph_image']}"}
     -else
       %meta{:property => "og:image", :content => image_path('fb_opengraph.jpg')}
 
 
-    %title= current_page.data.title "| Iterate"
+    %title= current_page.data.title " | Iterate - Lean Software Development"
     = stylesheet_link_tag "application"
     = stylesheet_link_tag "https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
 
