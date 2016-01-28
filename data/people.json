@@ -407,7 +407,7 @@
         "github" : "",
         "year" : "2014",
         "mugshot" : "brynjar.jpg",
-        "bio" : "...",
+        "bio" : "",
         "skills" : ["web", "javascript", "node.js"],
         "clients" : ["SOL", "Telenor Digital", "Amedia", "Apps AS"],
         "photo" : "brynjar.jpg"
@@ -437,7 +437,7 @@
         "github" : "",
         "year" : "2011",
         "mugshot" : "mortjohn.jpg",
-        "bio" : "...",
+        "bio" : "",
         "skills" : [ "web", "frontend", "backend", "javascript", "android"],
         "clients" : ["Cisco", "Telenor Digital", "Telenor Comoyo", "Color Line"],
         "photo" : "mortjohn.jpg"
