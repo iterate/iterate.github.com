@@ -33,7 +33,7 @@
         "mugshot" : "singh.jpg",
         "bio" : "",
         "skills" : [""],
-        "clients" : ["Gjensidige"],
+        "clients" : ["Gjensidige", "SpareBank 1"],
         "photo" : "singh.jpg"
     },
     "tjensvold": {
@@ -46,7 +46,7 @@
         "github" : "",
         "year" : "2005",
         "mugshot" : "ole.jpg",
-        "bio" : "M.Sci. i informatikk fra NTNU(2005). Har jobbet i konsulentbransjen ever since. Mye variert erfaring fra bank/finans, energi/kraft, statlige etater. Jobbet mye på Web-baserte løsninger med mye Front End, via tykk-klient applikasjoner til SOA-arkitektur. Ellers liker jeg å være på hytta i helgen, og dra på ski med min familie.",
+        "bio" : "M.Sci. i informatikk fra NTNU i 2005. Har jobbet i konsulentbransjen ever since. Mye variert erfaring fra bank/finans, energi/kraft, statlige etater. Jobbet mye på Web-baserte løsninger med mye front end, via tykk-klient applikasjoner til SOA-arkitektur. Ellers liker jeg å være på hytta i helgen, og dra på ski med min familie.",
         "skills" : ["Java", "JavaScript", "Integrasjon", "Spring", "WebServices", "REST"],
         "clients" : ["Gjensidige"],
         "photo" : "ole.jpg"
@@ -106,7 +106,7 @@
         "github" : "",
         "year" : "1995",
         "mugshot" : "erik.jpg",
-        "bio" : "Giver of f*cks. Constantly annoyed by stuff that could have been better. Even more annoyed if he can't make it so",
+        "bio" : "Giver of f*cks. Constantly annoyed by stuff that could have been better. Even more annoyed if he can't make it so.",
         "skills" : ["Clojure", "Java", "JavaScript", "sh", "Scala"],
         "clients" : ["Gjensidige"],
         "photo" : ""
@@ -121,9 +121,9 @@
         "github" : "",
         "year" : "2001",
         "mugshot" : "torve.jpg",
-        "bio" : "Torve har en MSc i Business fra NHH, har bakgrunn fra McKinsey, Telenor Mobil, BEKK og en serie med startups. Han leder Iterate Ventures sine investeringer innen Corporate Ventures og Venture Capaital.",
+        "bio" : "Torve har en MSc i Business fra NHH, har bakgrunn fra McKinsey, Telenor Mobil, BEKK og en serie med startups. Han leder Iterate Ventures sine investeringer innen Corporate Ventures og Venture Capital.",
         "skills" : ["Strategi", "Organisasjon", "Ledelse", "Enterprenørskap", "Startups", "Corporate Ventures", "Venture Capital"],
-        "clients" : ["Telenor mCommerce (2001)", "Mobilia (2003)", "Active Loop (2006)", "More (2008)", "Iterate Grasjen (2013)", "Iterate Ventures (2016)"],
+        "clients" : ["Telenor mCommerce (2001)", "Mobilia (2003)", "Active Loop (2006)", "More (2008)", "Iterate Garasjen (2013)", "Iterate Ventures (2016)"],
         "photo" : "torve-portrait.jpg"
     },
     "haugeto": {
@@ -138,7 +138,7 @@
         "mugshot" : "haugeto.jpg",
         "bio" : "Rådgiver og systemutvikler, med bakgrunn fra datateknikk NTNU og over 10 år erfaring med systemutvikling og digital innovasjon. Med-grunnlegger av Iterate.",
         "skills" : ["agile", "lean", "lean startup", "prototyping", "systemutvikling"],
-        "clients" : ["LEGO", "Amedia", "Aller", "Telenor", "Pearson Education"],
+        "clients" : ["LEGO", "Amedia", "Aller", "Telenor Norge", "Telenor Comoyo", "Pearson Education"],
         "photo" : "haugeto.jpg"
     },
     "johansen": {
@@ -151,7 +151,7 @@
         "github" : "https://github.com/sindreij",
         "year" : "2015",
         "mugshot" : "sindre.jpg",
-        "bio" : "Fullstackutvikler som liker utfordringer, uansett om disse består i å lage en funksjonell applikasjon i JavaScript, eller bitflicking i C.",
+        "bio" : "Fullstackutvikler som liker utfordringer, uansett om disse består i å lage en funksjonell applikasjon i JavaScript eller bitflicking i C.",
         "skills" : ["fullstack", "development", "javascript"],
         "clients" : ["Amedia"],
         "photo" : "sindre.jpg"
@@ -166,9 +166,9 @@
         "github" : "https://github.com/iselin",
         "year" : "2013",
         "mugshot" : "iselin.jpg",
-        "bio" : "Iselin jobber i dag som forretningsutvikler og Lean Startup rådgiver, og er en del av Iterates strategi- og innovasjonsteam, Garasjen. Fun-fact: Har tidligere vært både kreftforsker og Muay Thai-fighter i England..",
+        "bio" : "Iselin jobber i dag som forretningsutvikler og Lean Startup rådgiver, og er en del av Iterates strategi- og innovasjonsteam – Garasjen. Fun fact: Har tidligere vært både kreftforsker og Muay Thai-fighter i England.",
         "skills" : ["lean", "forretningsmodell", "joint ventures"],
-        "clients" : ["Gjensidige", "Røde Kors", "HFN", "Aller", "Telenor", "Canal Digital", "Jernia.no"],
+        "clients" : ["Gjensidige", "Røde Kors", "HFN", "Aller", "Telenor Norge", "Telenor Mobil", "Canal Digital", "Jernia.no"],
         "photo" : "iselin.jpg"
     },
     "barlindhaug": {
@@ -183,7 +183,7 @@
         "mugshot" : "barlindhaug.jpg",
         "bio" : "Allsidig utvikler med en dragning mot funksjonelle språk. Står gjerne på ski på sommeren og sykler om vinteren.",
         "skills" : ["clojure", "javascript", "web"],
-        "clients" : ["Hafslund", "Telenor", "CERN"],
+        "clients" : ["Hafslund", "Telenor Comoyo", "Telenor Digital", "CERN"],
         "photo" : "barlindhaug-portrait.jpg"
     },
     "moseby": {
@@ -196,9 +196,9 @@
         "github" : "https://github.com/pandaprincess",
         "year" : "2012",
         "mugshot" : "susannmo.jpg",
-        "bio" : "Susanne er ingen morgenfugl, hennes humør følger en periodisk eksponentialfunksjon med nullpunkt klokken 12. Hun har ingenting til overs for overfladiske høffeligheter, men verdsetter god personelig hygiene. Susanne vil heller fokusere på pen kode enn pen Susanne. Flink til å lage iOS applikasjoner og er iterate sin sjefsbrygger.",
+        "bio" : "Susanne er ingen morgenfugl, hennes humør følger en periodisk eksponentialfunksjon med nullpunkt klokken 12. Hun har ingenting til overs for overfladiske høfligheter, men verdsetter god personlig hygiene. Susanne vil heller fokusere på pen kode enn pen Susanne. Flink til å lage iOS applikasjoner og er Iterate sin sjefsbrygger.",
         "skills" : ["iOS", "Objective C", "Swift", "mobil", "beer brewer"],
-        "clients" : ["Solli forlag", "Telenor", "Propel", "NRK"],
+        "clients" : ["NRK", "Propel", "Telenor Comoyo", "Solli Forlag"],
         "photo" : "susanne.jpg"
     },
     "maheswaran": {
@@ -226,9 +226,9 @@
         "github" : "",
         "year" : "2011",
         "mugshot" : "klette.jpg",
-        "bio" : ".",
+        "bio" : "<blockquote>When a rabbit is placed inside the Black Box and vanishes on cue, it is the audience’s privilege to simply ooh and aah in wonderment. But we who step on stage should know how the trick is done. The loss of innocence is the price of applause. <br/>--  The Codeless Code, by Qi (qi@thecodelesscode.com).</blockquote>",
         "skills" : ["javascript", "java", "python", "dev-ops", "perl"],
-        "clients" : ["Amedia", "GET", "Telenor"],
+        "clients" : ["Amedia", "GET", "Telenor Comoyo"],
         "photo" : "klette.jpg"
     },
     "berg": {
@@ -256,7 +256,7 @@
         "github" : "https://github.com/magnli10",
         "year" : "2015",
         "mugshot" : "magnusl.jpg",
-        "bio" : "Utvikler med fokus på hele prossessen, fra ide til kunde. Født for sent og klarte aldri å ta det igjen.  ",
+        "bio" : "Utvikler med fokus på hele prossessen, fra idé til kunde. Født for sent og klarte aldri å ta det igjen.",
         "skills" : ["javascript", "frontend", "mobil"],
         "clients" : ["Amedia", "Remove", "S-OL"],
         "photo" : "magnusl.jpg"
@@ -271,9 +271,9 @@
         "github" : "",
         "year" : "2011",
         "mugshot" : "palru.jpg",
-        "bio" : "<p>Utvikler i alle lag -- fra prosess, mennesker og produkt, til frontend, backend og drift.</p> <p>Fun-fact: overbeviste Kent Beck om at Aeropress gir en bedre kopp kaffe enn presskanne.</p>",
+        "bio" : "<p>Utvikler i alle lag – fra prosess, mennesker og produkt, til frontend, backend og drift.</p> <p>Fun-fact: overbeviste Kent Beck om at Aeropress gir en bedre kopp kaffe enn presskanne.</p>",
         "skills" : ["web", "development", "change", "devops"],
-        "clients" : ["Amedia", "Telenor", "Get", "Jotta"],
+        "clients" : ["Amedia", "Telenor Comoyo", "Get", "Jotta"],
         "photo" : "palru-portrait.jpg"
     },
     "varland": {
@@ -286,9 +286,9 @@
         "github" : "",
         "year" : "2005",
         "mugshot" : "viktor.jpg",
-        "bio" : "Min filosofi er transparens; teknologi til arbeidsmåte. Ende til ende.",
+        "bio" : "Min filosofi er transparens – fra teknologi til arbeidsmåte. Ende til ende.",
         "skills" : ["web", "development"],
-        "clients" : ["amedia", "gjensidige", "spk", "ericsson", "fifa",
+        "clients" : ["amedia", "gjensidige", "Statens pensjonskasse", "ericsson", "fifa",
             "handelsbanken", "sony ericsson"],
         "photo" : "viktor.jpg"
     },
@@ -304,7 +304,7 @@
         "mugshot" : "eide.jpg",
         "bio" : "",
         "skills" : ["web", "development", "devops"],
-        "clients" : ["Telenor", "Norwegian", "Cisco", "Escenic"],
+        "clients" : ["Telenor Comoyo", "Norwegian Air Shuttle", "Cisco", "Escenic"],
         "photo" : "eide.jpg"
     },
     "leisse": {
@@ -332,9 +332,9 @@
         "github" : "https://github.com/makrem025",
         "year" : "2013",
         "mugshot" : "martin.jpg",
-        "bio" : "En enkel kar fra Odalens dype skoger. Jeg ❤ problemløsing, spesielt i forbindelse med systemutvikling. Fun-fact: Jeg kan klappe med én hånd.",
+        "bio" : "<p>En enkel kar fra Odalens dype skoger. Jeg ❤ problemløsing, spesielt i forbindelse med systemutvikling.</p><p>Fun fact: Jeg kan klappe med én hånd.</p>",
         "skills" : ["web", "development"],
-        "clients" : ["Telenor", "Røde Kors", "Veidekke", "NRK", "Sparebank1"],
+        "clients" : ["Telenor Comoyo", "Røde Kors", "Veidekke", "NRK", "Sparebank1"],
         "photo" : "martin.jpg"
     },
     "kvarud": {
@@ -377,9 +377,9 @@
         "github" : "https://github.com/jaaberg",
         "year" : "2014",
         "mugshot" : "jorgen.jpg",
-        "bio" : "Brenner for å gjøre ideer til virelighet billig, raskt, og eksperimentelt. Liker å løpe. Sakte. Lenge.",
+        "bio" : "Brenner for å gjøre ideer til virkelighet billig, raskt, og eksperimentelt. Liker å løpe. Sakte. Lenge.",
         "skills" : ["javascript", "lean", "lean startup", "prototyping", "mvp"],
-        "clients" : ["Telenor", "S-OL", "SpareBank 1", "Startsiden"],
+        "clients" : ["Telenor Norge", "S-OL", "SpareBank 1", "ABC Startsiden"],
         "photo" : "jorgen.jpg"
     },
     "larsen": {
@@ -392,7 +392,7 @@
         "github" : "",
         "year" : "2001",
         "mugshot" : "rune.jpg",
-        "bio" : "Rune har utviklerbakgrunn har han god kjennskap til alle steg i utviklingsprosessen, helt fra en idé på forretningssiden til deployment og mottak av løsning. Runes bakgrunn som systemutvikler og prosjektleder har gitt ham en dyp forståelse for prosjekter og prosesser, og et solid grunnlag for å jobbe med implementering av Lean-prinsipper i utviklingsløpet.",
+        "bio" : "Rune har utviklerbakgrunn og god kjennskap til alle steg i utviklingsprosessen, helt fra en idé på forretningssiden til deployment og mottak av løsning. Runes bakgrunn som systemutvikler og prosjektleder har gitt ham en dyp forståelse for prosjekter og prosesser, og et solid grunnlag for å jobbe med implementering av Lean-prinsipper i utviklingsløpet.",
         "skills" : ["prosjektledelse", "lean", "lean startup"],
         "clients" : ["Gjensidige", "Statnett", "Veidekke", "Color Line"],
         "photo" : "rune.jpg"
@@ -409,7 +409,7 @@
         "mugshot" : "brynjar.jpg",
         "bio" : "...",
         "skills" : ["web", "javascript", "node.js"],
-        "clients" : ["SOL", "Telenor", "Amedia", "Apps AS"],
+        "clients" : ["SOL", "Telenor Digital", "Amedia", "Apps AS"],
         "photo" : "brynjar.jpg"
     },
     "fredriksen": {
@@ -439,7 +439,7 @@
         "mugshot" : "mortjohn.jpg",
         "bio" : "...",
         "skills" : [ "web", "frontend", "backend", "javascript", "android"],
-        "clients" : ["Cisco", "Telenor Digital", "Comoyo", "Color Line"],
+        "clients" : ["Cisco", "Telenor Digital", "Telenor Comoyo", "Color Line"],
         "photo" : "mortjohn.jpg"
     },
     "skeie": {
@@ -467,9 +467,9 @@
         "github" : "",
         "year" : "2007",
         "mugshot" : "stigberg.jpg",
-        "bio" : "Likes kitteez. Fun-fact: Likes doggseez too.",
+        "bio" : "<p>Likes kitteez.</p><p>Fun fact: Likes doggseez too.</p>",
         "skills" : [ "backend", "frontend", "tdd", "java", "devops"],
-        "clients" : ["Norwegian", "Tele2", "Telenor", "SLF", "Veidekke"],
+        "clients" : ["Norwegian Air Shuttle", "Tele2", "Telenor Comoyo", "Statens landbruksforvaltning", "Veidekke"],
         "photo" : ""
     },
     "corell": {
@@ -484,7 +484,7 @@
         "mugshot" : "dag.jpg",
         "bio" : "",
         "skills" : [ "java", "backend", "development", "java"],
-        "clients" : ["SPK"],
+        "clients" : ["Statens pensjonskasse", "NAV", "Statens landbruksforvaltning"],
         "photo" : ""
     },
     "swift": {
@@ -512,10 +512,10 @@
         "github" : "https://github.com/karinevifstad",
         "year" : "2015",
         "mugshot" : "karine.jpg",
-        "bio" : "Jeg startet i Iterate i høst og har allerede fått Lage, Leke og Lære masse. Mitt beste eksempel på dette: Da vi lagde et piano av fem bananer, et Arduino-kit og noen linjer med Clojure. Fordi vi kan. Fun fact: Drev aktivt med klatring i 3 år for å bli kvitt høydeskrekken. Funka ikke særlig kjempebra.",
+        "bio" : "<p>Jeg startet i Iterate i høst og har allerede fått Lage, Leke og Lære masse. Mitt beste eksempel på dette: Da vi lagde et piano av fem bananer, et Arduino-kit og noen linjer med Clojure. Fordi vi kan.</p><p>Fun fact: Drev aktivt med klatring i 3 år for å bli kvitt høydeskrekken. Det hadde stikk motsatt virkning.</p>",
         "skills" : ["web", "frontend", "javascript", "java"],
-        "clients" : ["Telenor Digital", "S-OL"],
-        "photo" : "karine.jpg"
+        "clients" : ["Telenor Digital", "SOL"],
+        "photo" : ""
     },
     "strømme": {
         "name" : "Oddmund Strømme",
@@ -529,7 +529,7 @@
         "mugshot" : "oddmund.jpg",
         "bio" : "Sørlending som liker å få datamaskiner til å gjøre ting datamaskiner er gode til slik at mennesker kan få mer tid til å gjøre ting mennesker er gode til.",
         "skills" : ["devops", "java", "ruby"],
-        "clients" : ["amedia", "sparebank1", " "],
+        "clients" : ["amedia", "sparebank1"],
         "photo" : " "
     },
     "jonyer": {
@@ -543,7 +543,7 @@
         "year" : "2012",
         "mugshot" : "rita.jpg",
         "bio" : "Working to make Iterate more known in Oslo. Drawing webcomics in my freetime.",
-        "skills" : ["prosjektledelse", "marketsføring", "tegneserier"],
+        "skills" : ["prosjektledelse", "markedsføring", "tegneserier"],
         "clients" : "",
         "photo" : ""
     },
