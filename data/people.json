@@ -561,5 +561,21 @@
         "skills" : ["JavaScript", "ES6", "React", "Java"],
         "clients" : ["Get"],
         "photo" : ""
-    }
+    },
+        "engen ": { 					
+        "name" : "Therese Engen ", 	
+        "title" : "Partner, Prosjektleder ",
+        "email" : "therese@iterate.no ",
+        "phone" : "+47 922 77 077",
+        "twitter" : "https://twitter.com/theengen",
+        "linkedin" : "https://no.linkedin.com/in/thereseengen",	
+        "github" : "https://#",              
+        "year" : "2005", 							
+        "mugshot" : "therese.jpg", 					
+        "bio" : "Prosjektleder med sans for smidighet og struktur. Svært glad i å planlegge, men også opptatt av å minimere wayst og unødvendige prosesser. Blir glad av å se folk snakke sammen og diskutere gode løsninger. Muligheten til å jobbe med kryssfunksjonelle team av engasjerte og dyktige fagfolk gjør denne jobben til en av verdens beste! Startet som utvikler i .NET etter fullført Master of Science fra Universitetet i Oslo. Gjennomførte også Gründerskolen som en del av studiet, og det kan ha vært denne kombinasjonen som vekket interessen for nyskapning og entreprenørskap.",
+        "skills" : ["Smidig ledelse", "Prosjektledelse", "Tolmodig"],		    
+        "clients" : ["Cisco", "Telenor", "Statnett"],	
+        "photo" : " "							
+}, 									
+
 }
