@@ -23,17 +23,17 @@
 {
     "michelson": {
         "name" : "Charles Michelson",
-        "title" : "",
+        "title" : "Partner",
         "email" : "charles@iterate.no",
-        "phone" : "",
+        "phone" : "+47 908 41 795",
         "twitter" : "",
         "linkedin" : "",
         "github" : "",
-        "year" : "",
+        "year" : "2003",
         "mugshot" : "charles.jpg",
-        "bio" : "",
-        "skills" : [],
-        "clients" : [],
+        "bio" : "Charles har ansvaret for Iterate sitt initiativ – Iterate Ventures. Han er en erfaren intraprenør som ønsker å skape nytt, og som alltid har søkt i nye retninger for å skape resultater. Charles er en leder som ser forbi utfordringer, og som vet å spille mennesker og team gode. Charles har sin bakgrunn fra store norske og internasjonale selskap, og hans største styrke er evnen til å forstå kunden. Han har jobbet helhetlig med kommunikasjon og markedsføring, og har bred erfaring med så og si alle kommunikasjonskanaler, sist som markedsdirektør i SATS ELIXIA.",
+        "skills" : ["entreprenørskap", "markedsføring", "salg", "PR"],
+        "clients" : ["Iterate Ventures", "SATS ELIXIA", "Norwegian Air Shuttle", "IKEA"],
         "photo" : ""
     },
     "singh": {
