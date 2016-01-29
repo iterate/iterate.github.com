@@ -181,6 +181,27 @@ section {
   margin: 0 auto;
 }
 
+// horizontal list used for icons and logos
+
+ul.horizontal-list li {
+  display: inline;
+  padding-right: 0.3em;
+}
+
+// flex box stuff
+
+.flex-container {
+  @include display(flex);
+  @include flex-direction(row);
+  @include flex-wrap(wrap);
+  @include justify-content(center);
+}
+
+.cards {
+  @extend .flex-container;
+  min-width: em(320, 18);
+}
+
 // PRESENTATION CLASSES //
 
 // background images
@@ -237,24 +258,17 @@ $bg-colors: (
   }
 }
 
-// horizontal list used for icons and logos
+// image icon styles
 
-ul.horizontal-list li {
-  display: inline;
-  padding-right: 0.3em;
+.image-icon {
+  display: inline-block;
+  height: modular-scale(4);
+  width: modular-scale(4);
+  vertical-align: text-bottom;
+  margin-right: .4em;
 }
 
-.flex-container {
-  @include display(flex);
-  @include flex-direction(row);
-  @include flex-wrap(wrap);
-  @include justify-content(center);
-}
-
-.cards {
-  @extend .flex-container;
-  min-width: em(320, 18);
-}
+// button styles
 
 input.ghost-button {
   background-color: transparent;

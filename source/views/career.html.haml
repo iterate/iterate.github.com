@@ -53,21 +53,29 @@ title: Karriere
     %section
       .spans-twelve-columns
         %h2.text-centered Dette venter deg
-        %h3.text-centered Hva skjer når du blir en av oss?
+        %h3.text-centered.has-padding-bottom Hva skjer når du blir en av oss?
       
       .row
         .two-columns
-          %h4.has-padding-top 🎒 Mye god læring
+          %h4.has-padding-top 
+            = image_tag image_path('icons/chalk-board.png'), :class => 'image-icon'
+            Mye god læring
           %p Fra funksjonell programmering til retorikk - entreprenørskap, metodikk og teknologi: Faggrupper, konferanser og interne samlinger.
         .two-columns
-          %h4.has-padding-top 🍻 Sosialt
+          %h4.has-padding-top
+            = image_tag image_path('icons/play.png'), :class => 'image-icon'
+            Sosialt
           %p I 2015 hadde vi 87 sosiale eventer: Fester, ølbrygging, rebusløp, frokostmøter, squashturnering, fredagspils, hyttetur og mye mer
       .row
         .two-columns
-          %h4.has-padding-top ⛺ Camp Iterate
+          %h4.has-padding-top
+            = image_tag image_path('icons/match.png'), :class => 'image-icon'
+            Camp Iterate
           %p Om måten vi tenker på og arbeider på i Iterate. Camp for nyansatte, som også blir kjent med hverandre i inspirerende omgivelser.
         .two-columns
-          %h4.has-padding-top ⭐ Engasjerende oppdrag
+          %h4.has-padding-top 
+            = image_tag image_path('icons/star.png'), :class => 'image-icon'
+            Engasjerende oppdrag
           %p Vi jobber hardt for å skaffe deg oppdrag som du trives i. Det er viktig at du også har det gøy når du er ute hos kunden!
 
   %section{:id => 'apply'}
