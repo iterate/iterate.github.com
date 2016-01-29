@@ -181,7 +181,7 @@
         "github" : "https://github.com/iselin",
         "year" : "2013",
         "mugshot" : "iselin.jpg",
-        "bio" : "Iselin jobber i dag som forretningsutvikler og Lean Startup rådgiver, og er en del av Iterates strategi- og innovasjonsteam – Garasjen. Fun fact: Har tidligere vært både kreftforsker og Muay Thai-fighter i England.",
+        "bio" : "<p>Iselin jobber i dag som forretningsutvikler og Lean Startup rådgiver, og er en del av Iterates strategi- og innovasjonsteam – Garasjen.</p><p>Fun fact: Har tidligere vært både kreftforsker og Muay Thai-fighter i England.</p>",
         "skills" : ["lean", "forretningsmodell", "joint ventures"],
         "clients" : ["Gjensidige", "Røde Kors", "HFN", "Aller", "Telenor Norge", "Telenor Mobil", "Canal Digital", "Jernia.no"],
         "photo" : "iselin.jpg"
@@ -286,7 +286,7 @@
         "github" : "",
         "year" : "2011",
         "mugshot" : "palru.jpg",
-        "bio" : "<p>Utvikler i alle lag – fra prosess, mennesker og produkt, til frontend, backend og drift.</p> <p>Fun-fact: overbeviste Kent Beck om at Aeropress gir en bedre kopp kaffe enn presskanne.</p>",
+        "bio" : "<p>Utvikler i alle lag – fra prosess, mennesker og produkt, til frontend, backend og drift.</p> <p>Fun fact: overbeviste Kent Beck om at Aeropress gir en bedre kopp kaffe enn presskanne.</p>",
         "skills" : ["web", "development", "change", "devops"],
         "clients" : ["Amedia", "Telenor Comoyo", "Get", "Jotta"],
         "photo" : "palru-portrait.jpg"
@@ -527,7 +527,7 @@
         "github" : "https://github.com/karinevifstad",
         "year" : "2015",
         "mugshot" : "karine.jpg",
-        "bio" : "<p>Jeg startet i Iterate i høst og har allerede fått Lage, Leke og Lære masse. Mitt beste eksempel på dette: Da vi lagde et piano av fem bananer, et Arduino-kit og noen linjer med Clojure. Fordi vi kan.</p><p>Fun fact: Drev aktivt med klatring i 3 år for å bli kvitt høydeskrekken. Det hadde stikk motsatt virkning.</p>",
+        "bio" : "<p>Jeg startet i Iterate i høst og har allerede fått Leke, Lage og Lære masse. Mitt beste eksempel på dette: Da vi lagde et piano av fem bananer, et Arduino-kit og noen linjer med Clojure. Fordi vi kan.</p>",
         "skills" : ["web", "frontend", "javascript", "java"],
         "clients" : ["Telenor Digital", "SOL"],
         "photo" : ""
@@ -605,6 +605,21 @@
         "bio" : "",
         "skills" : ["prosjektledelse", "innovasjon", "prosessrådgivning", "Lean Software Development"],
         "clients" : ["Color Line", "SSB", "Stamina Health", "Nimi", "Elixia", "Gjensidige"],
+        "photo" : ""
+     },
+     "pettersen": {
+        "name" : "Fredrik Pettersen",
+        "title" : "Salgssjef",
+        "email" : "fredrik.pettersen@iterate.no",
+        "phone" : "+47 408 40 967",
+        "twitter" : "",
+        "linkedin" : "https://no.linkedin.com/in/fredrikpettersen",
+        "github" : "",
+        "year" : "2004",
+        "mugshot" : "fredrik.jpg",
+        "bio" : "<p>Har i mer enn 10 år koblet talenter og kloke hoder i IT-bransjen med kunder i media, telco, bank, forsikring og det offentlige. Har du spørsmål om når du bør eie eller leie kompetanse havner du på mitt bord, og jeg vil guide deg trygt rundt konsulenter, ferdigheter, behov og kommersielle avtaler.</p><p>Fun fact: Gründer selskaper på si og bruker livet på å bestemme meg for hva som er best av Steve Earle og ABBA.</p>",
+        "skills" : ["behovsforståelse", "konsulentmarkedet", "pitching", "tilbudskriving", "kontrakter"],
+        "clients" : ["Amedia", "Get", "Statens pensjonskasse", "Telenor Digital"],
         "photo" : ""
      }
 }
