@@ -1,4 +1,6 @@
 #navigation-bar .row {
+   padding-left: $base-spacing;
+
   @include media($toggle-navigation) {
     padding: 0;
   }
