@@ -21,6 +21,21 @@
 */
 
 {
+    "michealson": {
+        "name" : "Charles Michealson",
+        "title" : "",
+        "email" : "charles@iterate.no",
+        "phone" : "",
+        "twitter" : "",
+        "linkedin" : "",
+        "github" : "",
+        "year" : "",
+        "mugshot" : "charles.jpg",
+        "bio" : "",
+        "skills" : [],
+        "clients" : [],
+        "photo" : ""
+    },
     "singh": {
         "name" : "Rana Ranjit Singh",
         "title" : "Systemutvikler",
