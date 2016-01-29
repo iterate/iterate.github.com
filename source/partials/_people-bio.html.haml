@@ -5,31 +5,31 @@
 
   %section
     .employee-details
-      - if headline.length > 0
+      - unless headline.empty?
         %h2= headline
 
       %h3= data.people[employee].name
 
-      - if data.people[employee].bio.length > 0
+      - unless data.people[employee].bio.empty?
         %p= data.people[employee].bio
-      - else 
-        - 2.times do
-          %p= lorem.sentences 2
 
       .inner-section
         .skills
-          %i.fa.fa-tags
-          %span= data.people[employee].skills.join(', ')
+          - unless data.people[employee].skills.empty?
+            %i.fa.fa-tags
+            %span= data.people[employee].skills.join(', ')
 
         .clients
-          %i.fa.fa-tags
-          %span= data.people[employee].clients.join(', ')
+          -unless data.people[employee].clients.emty? 
+            %i.fa.fa-tags
+            %span= data.people[employee].clients.join(', ')
 
         - work_experience = (Date.today.year.to_i - data.people[employee].year.to_i).to_s + ' år med arbeidserfaring'
 
         .experience
-          %i.fa.fa-briefcase
-          = work_experience
+          - unless data.people[employee].year.empty?
+            %i.fa.fa-briefcase
+            = work_experience
 
       .inner-section
         %ul.horizontal-list
@@ -39,13 +39,15 @@
 
       .inner-section
         %ul.horizontal-list
-          %li
-            %a{:href => data.people[employee].twitter, :class => 'icon' }
-              %i.fa.fa-twitter
-          %li
-            %a{:href => data.people[employee].linkedin,  :class => 'icon' }
-              %i.fa.fa-linkedin-square
-          - if data.people[employee].github.length > 0
+          - unless data.people[employee].github.empty?
+            %li
+              %a{:href => data.people[employee].twitter, :class => 'icon' }
+                %i.fa.fa-twitter
+          - unless data.people[employee].linkedin.empty?
+            %li
+              %a{:href => data.people[employee].linkedin,  :class => 'icon' }
+                %i.fa.fa-linkedin-square
+          - unless data.people[employee].github.empty?
             %li 
               %a{:href => data.people[employee].github,  :class => 'icon' }
                 %i.fa.fa-github

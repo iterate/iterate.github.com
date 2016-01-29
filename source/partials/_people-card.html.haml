@@ -20,15 +20,15 @@
           %li.contact-details= employee.phone
 
           %ul.horizontal-list
-            - if employee.twitter.length > 0
+            - unless employee.twitter.empty?
               %li
                 %a{:href => employee.twitter, :class => 'icon'}
                   %i.fa.fa-twitter
-            - if employee.linkedin.length > 0
+            - unless employee.linkedin.empty?
               %li
                 %a{:href => employee.linkedin, :class => 'icon'}
                   %i.fa.fa-linkedin-square
-            - if employee.github.length > 0
+            - unless employee.github.empty?
               %li
                 %a{:href => employee.github, :class => 'icon'}
                   %i.fa.fa-github
