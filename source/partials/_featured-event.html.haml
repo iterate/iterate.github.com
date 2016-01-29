@@ -1,6 +1,12 @@
--# featured = current_page.siblings.select { |r| r.metadata[:page]["featured"] }
+-# THIS NEEDS WORK =)
+-# The idea is to find the next upcoming event where featured in frontmatter is set to true.
+-# This partial should then fetch the description from frontmatter, and display it on all event pages that are not currently featured.
+-# The layout takes care of which partials are displayed on which page.
 
-%section
-  %h2 Vårt neste arrangementet
-  %h3= lorem.sentence
-  %p= lorem.paragraph
+-# INSPIRATION FOR HOW THIS COULD LOOK:
+-# (it doesn't exactly work like that)
+
+%h2.text-centered Vårt neste arrangement
+-# %h3.text-centered= page.data.title
+.eight-columns-centered
+  -# %p= page.data.short_description

@@ -40,12 +40,14 @@
             = yield
 
       - if current_resource.data.featured
-        .row
-          %h2.text-centered.has-padding-bottom Dette sier deltakerne
-        .row
-          = partial 'partials/customer-quote-double', :locals => { :customer => []} # TODO add keys to nonsensical quotes.
+        %section
+          .row
+            %h2.text-centered.has-padding-bottom Dette sier deltakerne
+          .row
+            = partial 'partials/customer-quote-double', :locals => { :customer => ['nonsense1', 'nonsense2']} 
       - else 
-        = partial 'partials/featured-event'
+        %section
+          = partial 'partials/featured-event'
 
       - # fetches employee data from people.json and sets a headline where approriate
       = partial 'partials/people-bio', :locals => { :employee => current_resource.data.presenter, :headline => 'om foredragsholderen' } 

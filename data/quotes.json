@@ -26,6 +26,19 @@
     "name" : "Torgeir Hovden",
     "title" : "CTO, Telenor Digital",
     "photo" : ""
-    }
+    },
 
+  "nonsense1" : {
+    "quote" : "Jeg trodde lean fantes kun i eventyrer. At det ikke var noe for meg. Så skuffende.",
+    "name": "Bertrand Gjøvik", 
+    "title" : "EpiServer-utvikler",
+    "photo" : ""
+  },
+
+  "nonsense2" : {
+    "quote" : "Med seminar™ fra Iterate har vi fått synergi i alle verdileddene.",
+    "name": "Tor Hanssen Løvli", 
+    "title" : "Seniorrådgiver, 2Hus",
+    "photo" : ""
+  }
 }
