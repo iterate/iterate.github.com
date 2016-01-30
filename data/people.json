@@ -49,7 +49,7 @@
         "bio" : "",
         "skills" : "",
         "clients" : ["Gjensidige", "SpareBank 1"],
-        "photo" : "singh.jpg"
+        "photo" : ""
     },
     "tjensvold": {
         "name" : "Ole Schilling Tjensvold",
@@ -64,7 +64,7 @@
         "bio" : "M.Sci. i informatikk fra NTNU i 2005. Har jobbet i konsulentbransjen ever since. Mye variert erfaring fra bank/finans, energi/kraft, statlige etater. Jobbet mye på Web-baserte løsninger med mye front end, via tykk-klient applikasjoner til SOA-arkitektur. Ellers liker jeg å være på hytta i helgen, og dra på ski med min familie.",
         "skills" : ["Java", "JavaScript", "Integrasjon", "Spring", "WebServices", "REST"],
         "clients" : ["Gjensidige"],
-        "photo" : "ole.jpg"
+        "photo" : ""
     },
     "barstad": {
         "name" : "Sigve Barstad ",
@@ -79,7 +79,7 @@
         "bio" : "Født 1976, utdannet ved Handelshøyskolen BI, The University of Auckland, New Zealand og Edinburgh Business School, Scotland. Elsker å delta i prosesser der innovasjon, problemløsning og endringsprosesser står i fokus.",
         "skills" : ["idéutvikling", "prosessutvikling", "Lean Startup og Intraprenørskap"],
         "clients" : ["Gjensidige"],
-        "photo" : "sigve.jpg"
+        "photo" : "sigve-portrait.jpg"
     },
     "vraalsen": {
         "name" : "Fredrik Vraalsen",
@@ -94,7 +94,7 @@
         "bio" : "Dad, Scala developer, sci-fi fan, photo geek, cycling enthusiast, member of The Secret World Illuminati",
         "skills" : ["Scala", "Java", "functional programming"],
         "clients" : ["Get", "Hafslund", "Amedia", "Veidekke", "Bertel O. Steen"],
-        "photo" : "fredrikv.jpg"
+        "photo" : ""
     },
     "dæhlen": {
         "name" : "Magnús Dæhlen",
@@ -109,7 +109,7 @@
         "bio" : "The maddest and baddest codeslinger you'll ever meet.",
         "skills" : ["React", "JavaScript", "web"],
         "clients" : ["Amedia", "HFN"],
-        "photo" : "magnusDaehlen.jpg"
+        "photo" : ""
     },
     "assum": {
         "name" : "Erik Assum",
@@ -154,7 +154,7 @@
         "bio" : "Rådgiver og systemutvikler, med bakgrunn fra datateknikk NTNU og over 10 år erfaring med systemutvikling og digital innovasjon. Med-grunnlegger av Iterate.",
         "skills" : ["agile", "lean", "lean startup", "prototyping", "systemutvikling"],
         "clients" : ["LEGO", "Amedia", "Aller", "Telenor Norge", "Telenor Comoyo", "Pearson Education"],
-        "photo" : "haugeto.jpg"
+        "photo" : ""
     },
     "johansen": {
         "name" : "Sindre Ilebekk Johansen",
@@ -169,7 +169,7 @@
         "bio" : "Fullstackutvikler som liker utfordringer, uansett om disse består i å lage en funksjonell applikasjon i JavaScript eller bitflicking i C.",
         "skills" : ["fullstack", "development", "javascript"],
         "clients" : ["Amedia"],
-        "photo" : "sindre.jpg"
+        "photo" : ""
     },
     "kornli": {
         "name" : "Iselin Kornli",
@@ -184,7 +184,7 @@
         "bio" : "<p>Iselin jobber i dag som forretningsutvikler og Lean Startup rådgiver, og er en del av Iterates strategi- og innovasjonsteam – Garasjen.</p><p>Fun fact: Har tidligere vært både kreftforsker og Muay Thai-fighter i England.</p>",
         "skills" : ["lean", "forretningsmodell", "joint ventures"],
         "clients" : ["Gjensidige", "Røde Kors", "HFN", "Aller", "Telenor Norge", "Telenor Mobil", "Canal Digital", "Jernia.no"],
-        "photo" : "iselin.jpg"
+        "photo" : ""
     },
     "barlindhaug": {
         "name" : "Lars Barlindhaug",
@@ -214,7 +214,7 @@
         "bio" : "Susanne er ingen morgenfugl, hennes humør følger en periodisk eksponentialfunksjon med nullpunkt klokken 12. Hun har ingenting til overs for overfladiske høfligheter, men verdsetter god personlig hygiene. Susanne vil heller fokusere på pen kode enn pen Susanne. Flink til å lage iOS applikasjoner og er Iterate sin sjefsbrygger.",
         "skills" : ["iOS", "Objective C", "Swift", "mobil", "beer brewer"],
         "clients" : ["NRK", "Propel", "Telenor Comoyo", "Solli Forlag"],
-        "photo" : "susanne.jpg"
+        "photo" : ""
     },
     "maheswaran": {
         "name" : "Osmund Maheswaran",
@@ -229,7 +229,7 @@
         "bio" : "Fullstack-utvikler fra vestlandet med en forkjærlighet for testdrevet, lean utvikling og funksjonelle språk. Trives også godt bak trommesettet.",
         "skills" : ["tdd", "lean", "javascript", "python", "java"],
         "clients" : ["HFN", "Telenor", "Gjensidige"],
-        "photo" : "osmund.jpg"
+        "photo" : ""
     },
     "klette": {
         "name" : "Kristian Klette",
@@ -244,7 +244,7 @@
         "bio" : "<blockquote>When a rabbit is placed inside the Black Box and vanishes on cue, it is the audience’s privilege to simply ooh and aah in wonderment. But we who step on stage should know how the trick is done. The loss of innocence is the price of applause. <br/>--  The Codeless Code, by Qi (qi@thecodelesscode.com).</blockquote>",
         "skills" : ["javascript", "java", "python", "dev-ops", "perl"],
         "clients" : ["Amedia", "GET", "Telenor Comoyo"],
-        "photo" : "klette.jpg"
+        "photo" : ""
     },
     "berg": {
         "name" : "Morten Slaatten Berg",
@@ -259,7 +259,7 @@
         "bio" : "Systemutvikler som blander seg inn i det meste på de prosjektene han jobber. Liker å jobbe med alt fra kravspesifisering til testdrevet utvikling og hyppige leveranser.",
         "skills" : ["java", "development", "integration", "change", "Specification by example"],
         "clients" : ["Statens pensjonskasse", "Sparebank 1", "Color Line"],
-        "photo" : "morten.jpg"
+        "photo" : ""
     },
     "lien": {
         "name" : "Magnus Lien",
@@ -274,7 +274,7 @@
         "bio" : "Utvikler med fokus på hele prossessen, fra idé til kunde. Født for sent og klarte aldri å ta det igjen.",
         "skills" : ["javascript", "frontend", "mobil"],
         "clients" : ["Amedia", "Remove", "S-OL"],
-        "photo" : "magnusl.jpg"
+        "photo" : ""
     },
     "ruud": {
         "name" : "Pål Ruud",
@@ -305,7 +305,7 @@
         "skills" : ["web", "development"],
         "clients" : ["amedia", "gjensidige", "Statens pensjonskasse", "ericsson", "fifa",
             "handelsbanken", "sony ericsson"],
-        "photo" : "viktor.jpg"
+        "photo" : ""
     },
     "eide": {
         "name" : "Magnus Motzfeldt Eide",
@@ -320,7 +320,7 @@
         "bio" : "",
         "skills" : ["web", "development", "devops"],
         "clients" : ["Telenor Comoyo", "Norwegian Air Shuttle", "Cisco", "Escenic"],
-        "photo" : "eide.jpg"
+        "photo" : ""
     },
     "leisse": {
         "name" : "Alexandra Leisse",
@@ -335,7 +335,7 @@
         "bio" : "",
         "skills" : ["brukeropplevelse", "rapid prototyping", "konseptutvikling", "behovsanalyse", "lean ux", "brukertesting"],
         "clients" : ["Nokia", "gjensidige", "sats elixia", "røde kors"],
-        "photo" : "alexandra-portrait.jpg"
+        "photo" : ""
     },
     "midtsund": {
         "name" : "Martin Akre Midtsund",
@@ -350,7 +350,7 @@
         "bio" : "<p>En enkel kar fra Odalens dype skoger. Jeg ❤ problemløsing, spesielt i forbindelse med systemutvikling.</p><p>Fun fact: Jeg kan klappe med én hånd.</p>",
         "skills" : ["web", "development"],
         "clients" : ["Telenor Comoyo", "Røde Kors", "Veidekke", "NRK", "Sparebank1"],
-        "photo" : "martin.jpg"
+        "photo" : ""
     },
     "kvarud": {
         "name" : "Stein Kvarud",
@@ -376,11 +376,11 @@
         "linkedin" : "https://no.linkedin.com/pub/henrik-glasø-skifjeld/50/818/aba",
         "github" : "https://github.com/henrikgs",
         "year" : "2014",
-        "mugshot" : "henrikgs.jpg",
+        "mugshot" : "henrik.jpg",
         "bio" : "",
         "skills" : ["frontend", "web", "javascript", "java"],
         "clients" : ["Røde Kors", "Get", "Gjensidige"],
-        "photo" : "Henrik.jpg"
+        "photo" : ""
     },
     "aaberg": {
         "name" : "Jørgen Aaberg",
@@ -395,7 +395,7 @@
         "bio" : "Brenner for å gjøre ideer til virkelighet billig, raskt, og eksperimentelt. Liker å løpe. Sakte. Lenge.",
         "skills" : ["javascript", "lean", "lean startup", "prototyping", "mvp"],
         "clients" : ["Telenor Norge", "S-OL", "SpareBank 1", "ABC Startsiden"],
-        "photo" : "jorgen.jpg"
+        "photo" : ""
     },
     "larsen": {
         "name" : "Rune Larsen",
@@ -410,7 +410,7 @@
         "bio" : "Rune har utviklerbakgrunn og god kjennskap til alle steg i utviklingsprosessen, helt fra en idé på forretningssiden til deployment og mottak av løsning. Runes bakgrunn som systemutvikler og prosjektleder har gitt ham en dyp forståelse for prosjekter og prosesser, og et solid grunnlag for å jobbe med implementering av Lean-prinsipper i utviklingsløpet.",
         "skills" : ["prosjektledelse", "lean", "lean startup"],
         "clients" : ["Gjensidige", "Statnett", "Veidekke", "Color Line"],
-        "photo" : "rune.jpg"
+        "photo" : ""
     },
     "rongved": {
         "name" : "Brynjar Rongved",
@@ -425,7 +425,7 @@
         "bio" : "",
         "skills" : ["web", "javascript", "node.js"],
         "clients" : ["SOL", "Telenor Digital", "Amedia", "Apps AS"],
-        "photo" : "brynjar.jpg"
+        "photo" : ""
     },
     "fredriksen": {
         "name" : "Ivar Fredriksen",
@@ -440,7 +440,7 @@
         "bio" : "<p>Full-stack utvikler som gjerne kaster seg i gang med front-end, back-end, automatisering, drift eller Kaizen med prosessen.</p> <p>Fun f̶a̶c̶t̶: Spør meg om Meme Driven Development (MDD).</p>",
         "skills" : ["frontend", "backend", "java", "javascript", "web", "development"],
         "clients" : ["Get", "NRK", "Broadnet", "Jotta", "Eika", "Oslo kommune", "Fronter"],
-        "photo" : "ivar.jpg"
+        "photo" : ""
     },
     "weel": {
         "name" : "Morten Weel Johnsen",
@@ -455,7 +455,7 @@
         "bio" : "",
         "skills" : [ "web", "frontend", "backend", "javascript", "android"],
         "clients" : ["Cisco", "Telenor Digital", "Telenor Comoyo", "Color Line"],
-        "photo" : "mortjohn.jpg"
+        "photo" : ""
     },
     "skeie": {
         "name" : "Truls Skeie",
@@ -545,7 +545,7 @@
         "bio" : "Sørlending som liker å få datamaskiner til å gjøre ting datamaskiner er gode til slik at mennesker kan få mer tid til å gjøre ting mennesker er gode til.",
         "skills" : ["devops", "java", "ruby"],
         "clients" : ["amedia", "sparebank1"],
-        "photo" : " "
+        "photo" : ""
     },
     "jonyer": {
         "name" : "Rita Jonyer",
