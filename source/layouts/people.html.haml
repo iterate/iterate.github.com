@@ -22,32 +22,41 @@
     %nav#navigation-bar
       = partial 'partials/navigation'
 
-    %p MOOH
     = yield
     %footer
       = partial 'partials/footer'
     = javascript_include_tag "https://code.jquery.com/jquery-2.1.1.min.js", "application"
     :javascript
       $(function() {
-
-      // Call Gridder
+      var winHeight = $(window).height();
+      var itemHeight = 236; // mugshot+margin
+      var minHeight = 500; // TODO: in case of small viewport, size of largest content.
       $('.gridder').gridderExpander({
           scroll: true,
-          scrollOffset: 150,
+          scrollOffset: 100,
           scrollTo: "panel",                  // panel or listitem
           animationSpeed: 400,
           animationEasing: "easeInOutExpo",
           showNav: false,                      // Show Navigation
           onStart: function(){
-              //Gridder Inititialized
+            //Gridder Inititialized
           },
-          onContent: function(){
-              //Gridder Content Loaded
+          onContent: function($expand){
+            var h = winHeight - (itemHeight - 150);
+            if (h < minHeight) h = minHeight;
+            $($expand).height(h);
           },
           onClosed: function(){
-              //Gridder Closed
+            //Gridder Closed
           }
       });
+
+      // Initial routing
+      var deeplink = window.location.hash;
+      if (deeplink) {
+        var $el = document.querySelector(deeplink);
+        if ($el) $el.click();
+      }
 
       });
       $.get("https://blogfeed.app.iterate.no/").then(function (data) {

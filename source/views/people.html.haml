@@ -19,39 +19,32 @@ title: Mennesker
     - employees = data.people.sort.to_h # moves data into a hash and sorts alphabetically by object key
     - employees.each_with_index do | e, idx|
       - employee = e[1] # moves all object data into an array
+      - ident = e[0]
 
-      %li{:class => "gridder-list", :data => { :griddercontent => "#gcontent-#{idx}"}}
+      %li{:class => "gridder-list", :id => ident, :data => { :griddercontent => "#gcontent-#{idx}"}}
         %img{:class => 'mugshot', :title => employee.name, :src => image_path('mugshots/' + employee.mugshot)}
         %div{:id => "gcontent-#{idx}", :class => 'gridder-content', :style => 'display:none'}
-          %p= employee.bio
-      -#
-        .employee-basic-info
-          .employee-card-header
+          %div 
             %img{:class => 'mugshot', :title => employee.name, :src => image_path('mugshots/' + employee.mugshot)}
             %ul.card-content.text-centered
-              %li.employee-name= employee.name
-              %li.employee-title= employee.title
+              %li.contact-details
+                %a{:href => 'mailto:' + employee.email}= employee.email
+              %li.contact-details= employee.phone
 
-          %ul.card-content.text-centered
-            %li.contact-details
-              %a{:href => 'mailto:' + employee.email}= employee.email
-            %li.contact-details= employee.phone
-
-            %ul.horizontal-list
-              - if employee.twitter.length > 0
-                %li
-                  %a{:href => employee.twitter, :class => 'icon'}
-                    %i.fa.fa-twitter
-              - if employee.linkedin.length > 0
-                %li
-                  %a{:href => employee.linkedin, :class => 'icon'}
-                    %i.fa.fa-linkedin-square
-              - if employee.github.length > 0
-                %li
-                  %a{:href => employee.github, :class => 'icon'}
-                    %i.fa.fa-github
-        .employee-extended-info.is-hidden.animated.slideInLeft
-          .inner-section
+              %ul.horizontal-list
+                - if employee.twitter.length > 0
+                  %li
+                    %a{:href => employee.twitter, :class => 'icon'}
+                      %i.fa.fa-twitter
+                - if employee.linkedin.length > 0
+                  %li
+                    %a{:href => employee.linkedin, :class => 'icon'}
+                      %i.fa.fa-linkedin-square
+                - if employee.github.length > 0
+                  %li
+                    %a{:href => employee.github, :class => 'icon'}
+                      %i.fa.fa-github
+          %div
             - if employee.bio.length > 3
               %p= employee.bio
             - else

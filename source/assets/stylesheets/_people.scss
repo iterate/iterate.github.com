@@ -22,7 +22,13 @@
   padding: 30px;
 }
 .gridder-expanded-content {
-  text-align: left;  
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+
+  div:first-child {
+    margin-right: 1em;
+  }
 }
 
 .gridder.hasSelectedItem {
