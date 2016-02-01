@@ -322,21 +322,6 @@
         "clients" : ["Telenor Comoyo", "Norwegian Air Shuttle", "Cisco", "Escenic"],
         "photo" : ""
     },
-    "leisse": {
-        "name" : "Alexandra Leisse",
-        "title" : "Interaksjonsdesigner",
-        "email" : "alexandra@iterate.no",
-        "phone" : "+47 992 71 036",
-        "twitter" : "https://twitter.com/troubalex",
-        "linkedin" : "https://no.linkedin.com/in/alexandraleisse",
-        "github" : "",
-        "year" : "2001",
-        "mugshot" : "alex.jpg",
-        "bio" : "",
-        "skills" : ["brukeropplevelse", "rapid prototyping", "konseptutvikling", "behovsanalyse", "lean ux", "brukertesting"],
-        "clients" : ["Nokia", "gjensidige", "sats elixia", "røde kors"],
-        "photo" : ""
-    },
     "midtsund": {
         "name" : "Martin Akre Midtsund",
         "title" : "Systemutvikler",
