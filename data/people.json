@@ -487,21 +487,6 @@
         "clients" : ["Statens pensjonskasse", "NAV", "Statens landbruksforvaltning"],
         "photo" : ""
     },
-    "swift": {
-        "name" : "Andrew Swift",
-        "title" : "Systemutvikler",
-        "email" : "andy@iterate.no",
-        "phone" : "+47 400 01 309",
-        "twitter" : "https://twitter.com/swift_andy",
-        "linkedin" : "https://www.linkedin.com/pub/andrew-swift/34/a09/397",
-        "github" : "https://github.com/andyswift",
-        "year" : "1999",
-        "mugshot" : "andrew.jpg",
-        "bio" : "",
-        "skills" : [ "backend", "frontend", "tdd", "java", "javascript", "devops", "continuous delivery"],
-        "clients" : ["Norwegian Air Shuttle"],
-        "photo" : ""
-    },
     "vifstad": {
         "name" : "Karine Gran Vifstad",
         "title" : "Systemutvikler",
