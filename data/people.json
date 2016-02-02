@@ -606,5 +606,20 @@
         "skills" : "",
         "clients" : "",
         "photo" : ""
-     }
+     },
+    "wien": {
+        "name" : "Mari Wien",
+        "title" : "Partner, Systemutvikler",
+        "email" : "wien@iterate.no",
+        "phone" : "+47 411 05 313",
+        "twitter" : "",
+        "linkedin" : "https://no.linkedin.com/in/mari-wien-bba3751",
+        "github" : "https://github.com/mariwien/",
+        "year" : "2005",
+        "mugshot" : "wien.jpg",
+        "bio" : "Har vært med i Iterate lenge, nesten helt fra starten. Systemutvikler som er minst like glad i å forstå kundene og behovene deres som teknologien og verktøyene for å lage det de trenger. Opptatt av å hele tiden forbedre prosessen.",
+        "skills" : ["java", "development", "smidig"],
+        "clients" : ["Statens Pensjonskasse", "Storebrand", "Color Line"],
+        "photo" : " "
+    }
 }
