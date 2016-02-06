@@ -7,13 +7,16 @@
   }
 
   section {
-    padding: $large-spacing 0 $large-spacing 0;
     @include media($tablet) {
       padding: $large-spacing $base-spacing $extra-large-spacing $base-spacing;
     }
   }
 }
 
+#hero {
+  position: relative;
+  top: 30vh;
+}
 
 // ABOUT STYLES
 
@@ -34,9 +37,9 @@
   }
 }
 
-// HOME STYLES
+// CAREER STYLES
 
-.home-hero {
+.career-hero {
   @extend .about-hero;
   @include background-image (
     linear-gradient(transparentize(darken($blue, 20%), .7), transparentize($action-color, .9)), 
@@ -44,9 +47,9 @@
   );
 }
 
-// PEOPLE-STYLES
+// HOME STYLES
 
-.mennesker-hero {
+.home-hero {
   @extend .about-hero;
   @include background-image (
     linear-gradient(transparentize(darken($blue, 80%), .8), transparentize($action-color, 1)), 
@@ -54,14 +57,10 @@
   );
 }
 
-#hero {
-  position: relative;
-  top: 30vh;
-}
 
-// CARREER STYLES
+// PEOPLE STYLES
 
-.career-hero {
+.mennesker-hero {
   @extend .about-hero;
   @include background-image (
     linear-gradient(transparentize($action-color, .9), transparentize($action-color, .9)), 
