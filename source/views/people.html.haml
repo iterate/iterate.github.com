@@ -47,22 +47,22 @@ title: Mennesker
                 %li
                   %a{:href => employee.github, :class => 'icon'}
                     %i.fa.fa-github
-        .employee-extended-info.is-hidden.animated.slideInLeft
-          .inner-section
-            - unless employee.bio.empty?
-              %p= employee.bio
-            - unless employee.skills.empty?
-              .skills
-                %i.fa.fa-tags
-                %span= employee.skills.join(', ')
-            - unless employee.clients.empty?
-              .clients
-                %i.fa.fa-tags
-                %span= employee.clients.join(', ')
-
-            - work_experience = (Date.today.year.to_i - employee.year.to_i).to_s + ' år med arbeidserfaring'
-
-            .experience
-              - unless employee.year.empty?
-                %i.fa.fa-briefcase
-                = work_experience
+-#        .employee-extended-info.is-hidden.animated.slideInLeft
+-#          .inner-section
+-#            - unless employee.bio.empty?
+-#              %p= employee.bio
+-#            - unless employee.skills.empty?
+-#              .skills
+-#                %i.fa.fa-tags
+-#                %span= employee.skills.join(', ')
+-#            - unless employee.clients.empty?
+-#              .clients
+-#                %i.fa.fa-tags
+-#                %span= employee.clients.join(', ')
+-#
+-#            - work_experience = (Date.today.year.to_i - employee.year.to_i).to_s + ' år med arbeidserfaring'
+-#
+-#            .experience
+-#              - unless employee.year.empty?
+-#                %i.fa.fa-briefcase
+-#                = work_experience

@@ -1,16 +1,16 @@
 .employee-card {
+  @include display(flex);
+  @include flex-grow(0);
+  @include flex-wrap(nowrap);
+  @include flex-direction(row);
+  @include transition (all 0.2s ease-in-out);
+
   margin: 0 $small-spacing $base-spacing $small-spacing;
   list-style-type: none;
   background-color: $white;
   border: $base-border;
   border-radius: $base-border-radius;
   overflow: hidden;
-  @include display(flex);
-  @include flex-grow(0);
-  @include flex-basis(inherit);
-  @include flex-wrap(nowrap);
-  @include flex-direction(row);
-  @include transition (all 0.2s ease-in-out);
 
   &:focus,
   &:hover,
@@ -20,14 +20,14 @@
 
   @include media($mobile) {
     @include flex-wrap(wrap);
-    @include flex-grow(1);
+    @include flex-grow(0);
   }
 }
 
 .employee-basic-info {
   @include display(flex);
   @include flex-direction(column);
-  @include flex-grow(1);
+  @include flex-grow(0);
   @include animation(slide 0.5s ease);
   padding-bottom: $base-spacing;
 
@@ -52,11 +52,12 @@
 .employee-card-header {
   display: block;
   width: 100%;
-  cursor: pointer;
+/*  cursor: pointer;*/
 }
 
 .mugshot {
   min-width: em(280, 18);
+  max-width: em(320, 18);
   margin: 0 0 $base-spacing 0;
   position: relative;
   top: 0;
