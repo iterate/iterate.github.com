@@ -28,12 +28,12 @@ layout: application
         %p Oslo, 09. — 10. 05. 2016
         %p Intraprenørdagene er en konferanse om innovasjon og nyskapning innen etablerte virksomheter i privat og offentlig sektor. Her kåres også "Norges mest Innovative Selskap" og "Årets Intraprenør".
         %p.has-padding-top
-          =link_to 'Meld deg på', 'https://www.xn--intraprenrdagene-txb.no/', :class => 'button'
+          =link_to 'Meld deg på', 'http://www.xn--intraprenrdagene-txb.no/', :class => 'button'
 
   -# AUTOMAGIC PART -- only touch if you know what you're doing =)
   -# Magic is based on meta data provided in the front matter headers of the single event pages,
   -# and uses Middleman's sitemap functionality
-  
+
   - current_resource.children.each do | page |
     %div{ :class => [('white' unless page.data.featured?), ('light-colored has-background-image' if page.data.featured && page.data.serie == 'lean-cortado')], :style => ('background-image: url(' + image_path('headers/' + page.data.banner) + ');' if page.data.featured) }
       %section{ :class => ('featured-event' if page.data.featured) }
@@ -41,6 +41,6 @@ layout: application
 
         %p= page.data.date + ' – ' + page.data.time
         %p= page.data.short_description
-        %p 
-          Presentert av 
+        %p
+          Presentert av
           = data.people[page.data.presenter].name
