@@ -629,10 +629,10 @@
         "phone" : "+47 924 43 033",						
         "twitter" : "",				
         "linkedin" : "https://no.linkedin.com/in/tor-erik-steinsland-b3a65311",	
-        "github" : ""                 
+        "github" : "",                 
         "year" : "2012", 							
-        "mugshot" : "torerik.jpg", 
-        "bio" : "Tor-Erik er sivilingeniør i Kommunikasjonsteknologi og jobbet fire år i EY før han startet i Iterate som prosjektleder. Tor-Erik liker å få ting gjort og å få jobbe med de riktige tingene som gir mest verdi.",
+        "mugshot" : "torerik.JPG", 
+        "bio" : "Tor-Erik er Sivilingeniør i Kommunikasjonsteknologi fra NTNU og jobbet fire år i EY før han startet i Iterate som prosjektleder. Tor-Erik liker å få ting gjort og å få jobbe med de riktige tingene som gir mest verdi.",
         "skills" : ["Prosjektledelse", "Prosessforbedringer", "Problemløsning"],	
         "clients" : ["Gjensidige"],		   
         "photo" : ""						
