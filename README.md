@@ -1,3 +1,7 @@
+---
+Product Champion: Lars Barlindhaug
+
+---
 # iterate.github.io
 
 Iterate website build on Middleman, Bourbon, Neat and Bitter
