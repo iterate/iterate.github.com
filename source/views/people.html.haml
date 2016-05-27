@@ -32,7 +32,8 @@ title: Mennesker
           %ul.card-content.text-centered
             %li.contact-details
               %a{:href => 'mailto:' + employee.email}= employee.email
-            %li.contact-details= employee.phone
+            %li.contact-details
+              %a{:href => 'tel:' + employee.phone}= employee.phone
 
             %ul.horizontal-list
               - unless employee.twitter.empty?
