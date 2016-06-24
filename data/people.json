@@ -577,6 +577,21 @@
         "clients" : ["Amedia", "Get", "Statens pensjonskasse", "Telenor Digital"],
         "photo" : ""
      },
+     "bull": {
+        "name" : "Alexander Bull",
+        "title" : "Forretningsutvikler",
+        "email" : "alexander.bull@iterate.no",
+        "phone" : "+47 901 23 069",
+        "twitter" : "",
+        "linkedin" : "https://www.linkedin.com/in/alexander-bull-3569086",
+        "github" : "",
+        "year" : "2016",
+        "mugshot" : "alex.jpg",
+        "bio" : "<p>Har i mer enn 10 år koblet talenter og kloke hoder i IT-bransjen med kunder i media, telco, bank, forsikring og det offentlige. Har du spørsmål om når du bør eie eller leie kompetanse havner du på mitt bord, og jeg vil guide deg trygt rundt konsulenter, ferdigheter, behov og kommersielle avtaler.</p><p>Fun fact: Gründer selskaper på si og bruker livet på å bestemme meg for hva som er best av Steve Earle og ABBA.</p>",
+        "skills" : ["behovsforståelse", "konsulentmarkedet", "pitching", "tilbudskriving", "kontrakter"],
+        "clients" : ["Amedia", "Get", "Statens pensjonskasse", "Telenor Digital"],
+        "photo" : ""
+     },
      "hanssen": {
         "name" : "Nina Hanssen",
         "title" : "Administrasjonsansvarlig",
