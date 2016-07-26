@@ -4,7 +4,7 @@
     %meta{charset: "utf-8"}
     %meta{content: "IE=edge,chrome=1", http: {equiv: "X-UA-Compatible"}}
     %meta{name: "viewport", content: "width=device-width, initial-scale=1"}
-    %meta{name: "description", content: "Iterate jobber med selskaper i digital endring. Vi programmerer, rådgir, leder og designer sammen med våre kunder."}  
+    %meta{name: "description", content: "Iterate jobber med selskaper i digital endring. Vi programmerer, rådgir, leder og designer sammen med våre kunder."}
 
     %meta{:property => "og:title", :content => current_page.data.title + " | Iterate - Lean Software Development"}
     %meta{:property => "og:site_name", :content => "Iterate - Lean Software Development"}
@@ -17,6 +17,9 @@
     %title= current_page.data.title " | Iterate - Lean Software Development"
     = stylesheet_link_tag "application"
     = stylesheet_link_tag "https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
+
+    -# Google Analytics
+    = google_analytics_universal_tag
 
   %body{class: page_classes}
     %nav#navigation-bar
@@ -36,7 +39,4 @@
           articles.forEach(function(e) {
             $('.blog-list').prepend($("<li><a href=\""+e.Link+"\">"+e.Title+"</a><br><span class=\"blog-post-date\">"+new Date(e.PubDate).toDateString()+"</span></li>"));
           });
-          }).fail(function() { console.log("Something went wrong when fetching blog articles. Talk to Klette."); });
-
-    -# Google Analytics
-    = google_analytics_tag
+      }).fail(function() { console.log("Something went wrong when fetching blog articles. Talk to Lars."); });
