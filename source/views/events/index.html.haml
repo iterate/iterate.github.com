@@ -9,16 +9,16 @@ layout: application
   -# Copy a section below, add a suitable background image in _events.scss
   -# h2 gives a smaller headline while h3 is shown as the main title of the section.
 
-  .eric-riess.has-background-image
+  .startupmixer.has-background-image
     %section
       .two-thirds-layout-offset
-        %h2 Have effective organisations killed innovation?
-        %h3 Conceiving unicorns
-        %h4 Keynote: Eric Ries
-        %p Oslo, 08. 02. 2016
-        %p The digital revolution has no borders. We see innovative business models appear everywhere around us. Established rules are being challenged by new companies that do things differently.
+        %h2 Oslo Innovation Week Special
+        %h3 Startup-Investor Mixup
+        %h4 Win a Sprint Week with an expert team in Iterate and a chance to couple with an investor.
+        %p Oslo, 18. 10. 2016
+        %p Learn how to build a convincing pitch and pitch to investors. The winner gets a Sprint Week with an expert team in Iterate and the possibility to connect to an Investor and get help tailored to their needs.
         %p.has-padding-top
-          =link_to 'Get your ticket', 'http://unbouncepages.com/eric-ries-oslo/', :class => 'button'
+          =link_to 'Read more', 'http://pitchcontest.strikingly.com/', :class => 'button'
 
   -# AUTOMAGIC PART -- only touch if you know what you're doing =)
   -# Magic is based on meta data provided in the front matter headers of the single event pages,
@@ -31,6 +31,7 @@ layout: application
 
         %p= page.data.date + ' – ' + page.data.time
         %p= page.data.short_description
-        %p
-          Presentert av
-          = data.people[page.data.presenter].name
+        - if page.data.presenter
+          %p
+            Presentert av
+            = data.people[page.data.presenter].name

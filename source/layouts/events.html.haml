@@ -23,7 +23,8 @@
           .two-thirds-layout
             %h2= current_resource.data.serie_subtitle
             %ul.event-details 
-              %li= data.people[current_resource.data.presenter].name
+              - if current_resource.data.presenter
+                %li= data.people[current_resource.data.presenter].name
               %li= current_resource.data.date + ' – ' + current_resource.data.time
               %li Grensen 9B, Oslo
 
@@ -50,7 +51,8 @@
           = partial 'partials/featured-event'
 
       - # fetches employee data from people.json and sets a headline where approriate
-      = partial 'partials/people-bio', :locals => { :employee => current_resource.data.presenter, :headline => 'om foredragsholderen' } 
+      - if current_resource.data.presenter
+        = partial 'partials/people-bio', :locals => { :employee => current_resource.data.presenter, :headline => 'om foredragsholderen' } 
 
       - if current_resource.data.serie == 'lean-cortado'
         = partial 'partials/lean-cortado-serie'

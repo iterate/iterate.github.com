@@ -27,14 +27,21 @@
 
 .eric-riess {
   @include background-image (
-    linear-gradient(transparentize($blue, .9), transparentize(darken($blue, 60%), .2)), 
+    linear-gradient(transparentize($blue, .9), transparentize(darken($blue, 60%), .2)),
     url(image_path('eric-in-oslo.jpg'))
   );
 }
 
 .intrapreneur {
   @include background-image (
-    linear-gradient(transparentize($action-color, .8), transparentize(darken($action-color, 50%), .5)), 
+    linear-gradient(transparentize($action-color, .8), transparentize(darken($action-color, 50%), .5)),
     url(image_path('intrapreneur.jpg'))
+  );
+}
+
+.startupmixer {
+  @include background-image (
+    linear-gradient(transparentize($blue, .9), transparentize(darken($blue, 80%), .2)),
+    url(image_path('startupmixer.jpg'))
   );
 }
