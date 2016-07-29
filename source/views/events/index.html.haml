@@ -31,6 +31,7 @@ layout: application
 
         %p= page.data.date + ' – ' + page.data.time
         %p= page.data.short_description
-        %p
-          Presentert av
-          = data.people[page.data.presenter].name
+        - if page.data.presenter
+          %p
+            Presentert av
+            = data.people[page.data.presenter].name
