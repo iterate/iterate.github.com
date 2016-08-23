@@ -36,6 +36,103 @@
         "clients" : ["Iterate Ventures", "SATS ELIXIA", "Norwegian Air Shuttle", "IKEA"],
         "photo" : ""
     },
+
+    "andreas": {
+        "name" : "Andreas Nordahl",
+        "title" : "Designer",
+        "email" : "andreas@iterate.no",
+        "phone" : "+47 905 46 799",
+        "twitter" : "",
+        "linkedin" : "",
+        "github" : "",
+        "year" : "",
+        "mugshot" : "andreas.jpg",
+        "bio" : "",
+        "skills" : "",
+        "clients" : "",
+        "photo" : ""
+    },
+
+    "bendik": {
+        "name" : "Bendik Skotland Hansen",
+        "title" : "Designer",
+        "email" : "bendik@iterate.no",
+        "phone" : "+47 924 94 973",
+        "twitter" : "",
+        "linkedin" : "",
+        "github" : "",
+        "year" : "",
+        "mugshot" : "bendik.jpg",
+        "bio" : "",
+        "skills" : "",
+        "clients" : "",
+        "photo" : ""
+    },
+
+    "kjetil": {
+        "name" : "Kjetil Sletten",
+        "title" : "Systemutvikler",
+        "email" : "kjetil.sletten@iterate.no",
+        "phone" : "+47 950 59 588",
+        "twitter" : "",
+        "linkedin" : "",
+        "github" : "",
+        "year" : "",
+        "mugshot" : "kjetil.jpg",
+        "bio" : "",
+        "skills" : "",
+        "clients" : "",
+        "photo" : ""
+    },
+
+    "nils": {
+        "name" : "Nils Rugsveen",
+        "title" : "Systemutvikler",
+        "email" : "nils.rugsveen@iterate.no",
+        "phone" : "+47 95876417",
+        "twitter" : "https://www.twitter.com/rugerns",
+        "linkedin" : "",
+        "github" : "",
+        "year" : "",
+        "mugshot" : "nils.jpg",
+        "bio" : "",
+        "skills" : "",
+        "clients" : "",
+        "photo" : ""
+    },
+
+    "pernille": {
+        "name" : "Pernille Wangsholm",
+        "title" : "Systemutvikler",
+        "email" : "pernille.wangsholm@iterate.no",
+        "phone" : "+47 482 99 803",
+        "twitter" : "https://www.twitter.com/Pernilwa",
+        "linkedin" : "",
+        "github" : "",
+        "year" : "",
+        "mugshot" : "pernille.jpg",
+        "bio" : "",
+        "skills" : "",
+        "clients" : "",
+        "photo" : ""
+    },
+
+    "pia": {
+        "name" : "Pia Lindkjølen",
+        "title" : "Systemutvikler",
+        "email" : "pia.lindkjolen@iterate.no",
+        "phone" : "+47 974 21 726",
+        "twitter" : "",
+        "linkedin" : "",
+        "github" : "",
+        "year" : "",
+        "mugshot" : "pia.jpg",
+        "bio" : "",
+        "skills" : "",
+        "clients" : "",
+        "photo" : ""
+    },
+
     "singh": {
         "name" : "Rana Ranjit Singh",
         "title" : "Systemutvikler",
