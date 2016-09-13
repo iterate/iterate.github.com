@@ -178,19 +178,19 @@
         "clients" : ["Gjensidige"],
         "photo" : "sigve-portrait.jpg"
     },
-    "vraalsen": {
-        "name" : "Fredrik Vraalsen",
-        "title" : "Systemutvikler",
-        "email" : "vraalsen@iterate.no",
-        "phone" : "+47 984 62 255",
-        "twitter" : "https://www.twitter.com/fredriv",
+    "Martine": {
+        "name" : "Martine Bongard",
+        "title" : "Designer",
+        "email" : "martine.bongard@iterate.no",
+        "phone" : "+47 926 26 174",
+        "twitter" : "http://twitter.com/mbongard",
         "linkedin" : "",
         "github" : "",
-        "year" : "1997",
-        "mugshot" : "fredrikv.jpg",
-        "bio" : "Dad, Scala developer, sci-fi fan, photo geek, cycling enthusiast, member of The Secret World Illuminati",
-        "skills" : ["Scala", "Java", "functional programming"],
-        "clients" : ["Get", "Hafslund", "Amedia", "Veidekke", "Bertel O. Steen"],
+        "year" : "",
+        "mugshot" : "Martine.jpg",
+        "bio" : "",
+        "skills" : "",
+        "clients" : "",
         "photo" : ""
     },
     "dæhlen": {
@@ -343,20 +343,20 @@
         "clients" : ["Amedia", "Remove", "S-OL"],
         "photo" : ""
     },
-    "ruud": {
-        "name" : "Pål Ruud",
-        "title" : "Systemutvikler",
-        "email" : "pal.ruud@iterate.no",
-        "phone" : "+47 906 21 906",
-        "twitter" : "https://twitter.com/ruudud",
-        "linkedin" : "https://no.linkedin.com/in/ruudud",
+    "Julia": {
+        "name" : "Julia Baulin",
+        "title" : "Designer",
+        "email" : "julia.baulin@iterate.no",
+        "phone" : "+47 905 06 269",
+        "twitter" : "",
+        "linkedin" : "",
         "github" : "",
-        "year" : "2011",
-        "mugshot" : "palru.jpg",
-        "bio" : "<p>Utvikler i alle lag – fra prosess, mennesker og produkt, til frontend, backend og drift.</p> <p>Fun fact: overbeviste Kent Beck om at Aeropress gir en bedre kopp kaffe enn presskanne.</p>",
-        "skills" : ["web", "development", "change", "devops"],
-        "clients" : ["Amedia", "Telenor Comoyo", "Get", "Jotta"],
-        "photo" : "palru-portrait.jpg"
+        "year" : "",
+        "mugshot" : "Julia.jpg",
+        "bio" : "",
+        "skills" : "",
+        "clients" : "",
+        "photo" : ""
     },
     "varland": {
         "name" : "Viktor Varland",
