@@ -37,7 +37,7 @@
         "photo" : ""
     },
 
-    "andreas": {
+    "nordahl": {
         "name" : "Andreas Nordahl",
         "title" : "Designer",
         "email" : "andreas@iterate.no",
@@ -53,7 +53,7 @@
         "photo" : ""
     },
 
-    "bendik": {
+    "hansen": {
         "name" : "Bendik Skotland Hansen",
         "title" : "Designer",
         "email" : "bendik@iterate.no",
@@ -69,7 +69,7 @@
         "photo" : ""
     },
 
-    "kjetil": {
+    "sletten": {
         "name" : "Kjetil Sletten",
         "title" : "Systemutvikler",
         "email" : "kjetil@iterate.no",
@@ -85,7 +85,7 @@
         "photo" : ""
     },
 
-    "nils": {
+    "rugsveen": {
         "name" : "Nils Rugsveen",
         "title" : "Systemutvikler",
         "email" : "nils@iterate.no",
@@ -101,7 +101,7 @@
         "photo" : ""
     },
 
-    "pernille": {
+    "wangsholm": {
         "name" : "Pernille Wangsholm",
         "title" : "Systemutvikler",
         "email" : "pernille@iterate.no",
@@ -117,7 +117,7 @@
         "photo" : ""
     },
 
-    "pia": {
+    "lindkjolen": {
         "name" : "Pia Lindkjølen",
         "title" : "Systemutvikler",
         "email" : "pia@iterate.no",
@@ -178,7 +178,7 @@
         "clients" : ["Gjensidige"],
         "photo" : "sigve-portrait.jpg"
     },
-    "Martine": {
+    "bongard": {
         "name" : "Martine Bongard",
         "title" : "Designer",
         "email" : "martine.bongard@iterate.no",
@@ -343,7 +343,7 @@
         "clients" : ["Amedia", "Remove", "S-OL"],
         "photo" : ""
     },
-    "Julia": {
+    "baulin": {
         "name" : "Julia Baulin",
         "title" : "Designer",
         "email" : "julia.baulin@iterate.no",
@@ -689,7 +689,7 @@
         "clients" : ["Statens Pensjonskasse", "Storebrand", "Color Line"],
         "photo" : " "
     },
-    "Patrick": {
+    "skevik": {
         "name" : "Patrick Skevik",
         "title" : "Systemutvikler",
         "email" : "patrick@iterate.no",
@@ -704,7 +704,7 @@
         "clients" : [""],
         "photo" : ""
     },
-    "Jonas": {
+    "feiring": {
         "name" : "Jonas Feiring",
         "title" : "Designer",
         "email" : "jonas@iterate.no",
