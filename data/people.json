@@ -208,21 +208,6 @@
         "clients" : ["Amedia", "HFN"],
         "photo" : ""
     },
-    "assum": {
-        "name" : "Erik Assum",
-        "title" : "Systemutvikler",
-        "email" : "erik@iterate.no",
-        "phone" : "+47 938 19 442",
-        "twitter" : "http://twitter.com/slipset",
-        "linkedin" : "https://no.linkedin.com/in/erikassum",
-        "github" : "",
-        "year" : "1995",
-        "mugshot" : "erik.jpg",
-        "bio" : "Giver of f*cks. Constantly annoyed by stuff that could have been better. Even more annoyed if he can't make it so.",
-        "skills" : ["Clojure", "Java", "JavaScript", "sh", "Scala"],
-        "clients" : ["Gjensidige"],
-        "photo" : ""
-    },
     "indahl": {
         "name" : "Torve Indahl",
         "title" : "Partner",
