@@ -11,41 +11,48 @@ title: Home
   .white
     %section.text-centered
       %h2.is-hidden Hjemmeside
-      %h3.text-centered.has-large-padding-bottom Leke, Lage, Lære
+      %h3.text-centered.has-large-padding-bottom Nyskaper du?
       
-      %p.ingress &ldquo;Build the right thing and build the thing right&rdquo;
+      // %p.ingress Er du en skaper?
 
       .eight-columns-centered
+        // %p 
+        //   Vi er mangfoldige kløppere på koding, innovasjon og design.
+        %p
+          Ditt fremtidige jeg ser tilbake på idag: Hva ved deg er det hun eller han gleder seg over?
         %p 
-          Iterate jobber med selskaper i digital endring.
-          %br
-          Vi programmerer, rådgir, leder og designer sammen med våre kunder.
-
-        %p#anchor
-          = link_to 'Ta kontakt og møt oss over en kopp kaffe', '#freddy'
+          Vi er ganske sikre på at ditt fremtidige jeg gleder seg over skaperevnen din.
+        %p
+          Derfor skal vi imponere fletta av ditt fremtidige jeg. 
 
   %section
-    %h2.text-centered Utvikling, transformasjon og innovasjon
     .row
-      %p.eight-columns-centered.text-centered
-    = partial 'partials/customer-logos'
+      %h2.text-centered.has-large-padding-bottom Dette sier kundene våre
+    .row
+      = partial 'partials/customer-quote-double', :locals => { :customer => ['jenssen', 'hovden']}
 
   .white
     %section
+      %h2.text-centered Koding, rådgivning og design for
       .row
-        %h2.text-centered.has-large-padding-bottom Dette sier kundene våre
-      .row
-        = partial 'partials/customer-quote-double', :locals => { :customer => ['jenssen', 'hovden']}
+        %p.eight-columns-centered.text-centered
+      = partial 'partials/customer-logos'
 
   .freddy.has-background-image
     %a{:name => 'freddy', :id => 'freddy'}
     %section#freddy
       .two-thirds-layout-offset
-        %h2 Ta en prat med vår salgssjef
+        %h2 Konsulenttjenester
         %p
-          Fredrik er opptatt av å koble kloke hoder. Kunder med viktige ting på gang, konsulenter med energi og evner for oppgaven. Ta en prat med Fredrik! 
-        %ul
-          %li Ring +47 408 409 67
-          %li 
-            Send epost til 
-            = link_to 'fredrik@iterate.no', 'mailto:fredrik@iterate.no'
+          Fredrik kobler kloke hoder: Bedrifter og organisasjoner med store vyer, fagfolk i Iterate med energi og evner for oppgaven.
+        %br
+          +47 408 409 67 / 
+          = link_to 'fredrik@iterate.no', 'mailto:fredrik@iterate.no'
+  %section
+    %h3 Målet
+    %p
+      Målet med Iterate er å bygge ferdigheter, skape verdi og ha det gøy. Vi tar også konsulentoppdrag som gir viktig trening og læring.
+    %p
+      Vi skaper nytt sammen ved å utvikle ideer til nye produkter, og lære raskest mulig hva som fungerer, hva verden vil ha, og hva vi selv ønsker å lage.
+    %p
+      Hva er din siste idé?
