@@ -8,10 +8,10 @@
     },
 
   "ruud" : {
-    "quote" : "Vi er som en skoleklasse uten lærer, men istedenfor å ha utetime hele tiden, sitter vi inne og leker med datamaskiner.",
-    "name" : "Pål Ruud",
-    "title" : "Systemutvikler, Head of Operations",
-    "photo" : "palru.jpg"
+    "quote" : "Det dreier seg om å skape en kultur der vi tar vare på hverandre, og hvor vi kan være byggere som maksimerer skaperkraften, istedenfor leveranse-evnen.",
+    "name" : "Rune Larsen",
+    "title" : "CEO",
+    "photo" : "rune.jpg"
     },
 
   "jenssen" : {
@@ -26,19 +26,5 @@
     "name" : "Torgeir Hovden",
     "title" : "CTO, Telenor Digital",
     "photo" : ""
-    },
-
-  "nonsense1" : {
-    "quote" : "Jeg trodde lean kun fantes i eventyr. At det ikke var noe for meg. Så skuffende.",
-    "name": "Bertrand Gjøvik", 
-    "title" : "EpiServer-utvikler",
-    "photo" : ""
-  },
-
-  "nonsense2" : {
-    "quote" : "Med seminar™ fra Iterate har vi fått synergi i alle verdileddene.",
-    "name": "Tor Hanssen Løvli", 
-    "title" : "Seniorrådgiver, 2Hus",
-    "photo" : ""
-  }
+    }
 }

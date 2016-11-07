@@ -5,18 +5,18 @@ title: Karriere
 #main
   .header.career-hero
     %section
-      %h1#hero.text-centered Leter du etter nye utfordringer?
+      %h1#hero.text-centered Leter du etter noe nytt?
 
   .white
     %section
       .ten-columns-centered
-        %h2.text-centered Dette er oss
-        %h3.text-centered Familien for fagentusiaster
+        %h2.text-centered Ideer, samhold og teknologi
+        %h3.text-centered En skapende arbeidsplass
 
-        %p.ingress.text-centered 
-          En arbeidsplass og en lekeplass
+        //%p.ingress.text-centered 
+        //  En arbeidsplass og en lekeplass
 
-        %p.text-centered Iterate ansetter systemutviklere, prosjektledere, forretningsutviklere og designere. Vi ønsker å skape verdi, utvikle vår kompetanse og ha det gøy.
+        %p.text-centered Iterate ansetter kodere, forretningsutviklere og designere. Vi ønsker å skape verdi, utvikle vår kompetanse og ha det gøy.
 
         %p#anchor.text-centered.has-padding-top
           =link_to 'Bli en av oss', '#apply', :class => 'text-centered button'
@@ -31,13 +31,13 @@ title: Karriere
         %h2 Fra tannhjul til rock star
         %h3 Frihet til å forme din egen stilling
 
-        %p Iterate har ingen store eksterne eiere. #{data.people.length} mennesker, minst mulig byråkrati, ansvarlig frihet og flat struktur.
+        %p Iterate består av #{data.people.length} mennesker, minst mulig byråkrati, ansvarlig frihet og akkurat passe mengde struktur.
   
   .white.has-large-padding-top-bottom
     %section
       .row
         .two-thirds-layout-offset
-          %h2 Dette sier vi om oss selv
+          // %h2 Dette sier vi om oss selv
       .row
         = partial 'partials/customer-quote-single', :locals => { :customer => 'ruud' } 
 
