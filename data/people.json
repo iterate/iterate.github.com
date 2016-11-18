@@ -328,21 +328,6 @@
         "clients" : ["Amedia", "Remove", "S-OL"],
         "photo" : ""
     },
-    "baulin": {
-        "name" : "Julia Baulin",
-        "title" : "Designer",
-        "email" : "julia.baulin@iterate.no",
-        "phone" : "+47 905 06 269",
-        "twitter" : "",
-        "linkedin" : "",
-        "github" : "",
-        "year" : "",
-        "mugshot" : "Julia.jpg",
-        "bio" : "",
-        "skills" : "",
-        "clients" : "",
-        "photo" : ""
-    },
     "varland": {
         "name" : "Viktor Varland",
         "title" : "Systemutvikler",
