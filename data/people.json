@@ -449,21 +449,6 @@
         "clients" : ["SOL", "Telenor Digital", "Amedia", "Apps AS"],
         "photo" : ""
     },
-    "fredriksen": {
-        "name" : "Ivar Fredriksen",
-        "title" : "Systemutvikler",
-        "email" : "ivar@iterate.no",
-        "phone" : "+47 414 53 510",
-        "twitter" : "https://twitter.com/ivaruf",
-        "linkedin" : "https://no.linkedin.com/pub/ivar-fredriksen/18/b7b/b7a",
-        "github" : "https://github.com/ivaruf",
-        "year" : "2010",
-        "mugshot" : "ivar.jpg",
-        "bio" : "<p>Full-stack utvikler som gjerne kaster seg i gang med front-end, back-end, automatisering, drift eller Kaizen med prosessen.</p> <p>Fun f̶a̶c̶t̶: Spør meg om Meme Driven Development (MDD).</p>",
-        "skills" : ["frontend", "backend", "java", "javascript", "web", "development"],
-        "clients" : ["Get", "NRK", "Broadnet", "Jotta", "Eika", "Oslo kommune", "Fronter"],
-        "photo" : ""
-    },
     "weel": {
         "name" : "Morten Weel Johnsen",
         "title" : "Systemutvikler",
