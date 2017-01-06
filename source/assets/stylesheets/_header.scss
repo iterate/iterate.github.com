@@ -1,4 +1,4 @@
-.header { 
+.header {
   width: 100%;
 
   @include media($mobile) {
@@ -22,7 +22,7 @@
 
 .about-hero {
   @include background-image (
-    linear-gradient(transparentize($action-color, .9), transparentize(darken($action-color, 10%), .8)), 
+    linear-gradient(transparentize($action-color, .9), transparentize(darken($action-color, 10%), .8)),
     url(image_path('headers/om-oss.jpg'))
   );
   background-size: cover;
@@ -30,7 +30,7 @@
   background-repeat: no-repeat;
   height: 100vh;
   margin-top: em(-70, 18);
-  
+
   @include media($toggle-navigation) {
     margin-top: 0;
     height: 80vh;
@@ -42,7 +42,7 @@
 .career-hero {
   @extend .about-hero;
   @include background-image (
-    linear-gradient(transparentize(darken($blue, 20%), .7), transparentize($action-color, .9)), 
+    linear-gradient(transparentize(darken($blue, 20%), .7), transparentize($action-color, .9)),
     url(image_path('headers/start.jpg'))
   );
 }
@@ -52,8 +52,8 @@
 .home-hero {
   @extend .about-hero;
   @include background-image (
-    linear-gradient(transparentize(darken($blue, 80%), .8), transparentize($action-color, 1)), 
-    url(image_path('headers/mennesker.jpg'))
+    linear-gradient(transparentize(darken($blue, 80%), .8), transparentize($action-color, 1)),
+    url(image_path('headers/iterockalypse.jpg'))
   );
 }
 
@@ -63,7 +63,7 @@
 .mennesker-hero {
   @extend .about-hero;
   @include background-image (
-    linear-gradient(transparentize($action-color, .9), transparentize($action-color, .9)), 
+    linear-gradient(transparentize($action-color, .9), transparentize($action-color, .9)),
     url(image_path('headers/karriere.jpg'))
   );
 }
@@ -134,4 +134,3 @@
 .dark li {
   color: $white !important;
 }
-
