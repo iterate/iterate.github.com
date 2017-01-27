@@ -539,21 +539,6 @@
         "clients" : ["amedia", "sparebank1"],
         "photo" : ""
     },
-    "jonyer": {
-        "name" : "Rita Jonyer",
-        "title" : "Markedsfører",
-        "email" : "rita@iterate.no",
-        "phone" : "+47 409 75 306",
-        "twitter" : "https://twitter.com/not4funcomics",
-        "linkedin" : "",
-        "github" : "https://github.com/manzare",
-        "year" : "2012",
-        "mugshot" : "rita.jpg",
-        "bio" : "Working to make Iterate more known in Oslo. Drawing webcomics in my freetime.",
-        "skills" : ["prosjektledelse", "markedsføring", "tegneserier"],
-        "clients" : "",
-        "photo" : ""
-    },
     "mæhlum": {
         "name" : "Arne Mæhlum",
         "title" : "Systemutvikler",
