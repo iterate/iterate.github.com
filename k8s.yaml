@@ -1,0 +1,38 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: oldwww
+spec:
+  replicas: 3
+  template:
+    metadata:
+      labels:
+        app: oldwww
+    spec:
+      containers:
+      - name: oldwww
+        image: gcr.io/app-iterate/github-iterate-iterate-github-com:e2b1834e47730391da1edbeba5ff75301a2d8dcf
+        ports:
+        - containerPort: 5000
+        resources:
+          limits:
+            cpu: 10m
+        # livenessProbe:
+        #   httpGet:
+        #     path: /
+        #     port: 5000
+        #   initialDelaySeconds: 3
+        #   periodSeconds: 3
+
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: oldwww
+spec:
+  selector:
+    app: oldwww
+  ports:
+  - protocol: TCP
+    port: 5000
